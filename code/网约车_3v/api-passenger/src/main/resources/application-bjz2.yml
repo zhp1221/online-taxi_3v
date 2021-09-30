@@ -1,0 +1,19 @@
+server:
+  port: 8702
+eureka:
+  client:
+    service-url:
+      z1: http://localhost:8811/eureka/,http://localhost:8812/eureka/
+      z2: http://localhost:8821/eureka/,http://localhost:8822/eureka/
+    region: bj
+    availability-zones:
+      bj: z2
+    prefer-same-zone-eureka: true
+  instance:
+    metadata-map:
+      zone: z2
+spring:
+  application:
+    name: api-passenger
+zone:
+  name: bjz2

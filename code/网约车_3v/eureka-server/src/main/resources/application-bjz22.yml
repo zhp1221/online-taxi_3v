@@ -1,0 +1,16 @@
+server:
+  port: 8822
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    region: bj
+    availability-zones:
+      bj: z1,z2
+    service-url:
+      z1: http://localhost:8811/eureka/,http://localhost:8812/eureka/
+      z2: http://localhost:8821/eureka/,http://localhost:8822/eureka/
+spring:
+  application:
+    name: eureka-server-bjz22
+

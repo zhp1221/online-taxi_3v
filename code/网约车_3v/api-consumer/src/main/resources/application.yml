@@ -1,0 +1,15 @@
+server:
+  port: 80
+eureka:
+  client:
+    service-url:
+      z1: http://localhost:8811/eureka/,http://localhost:8812/eureka/
+      z2: http://localhost:8821/eureka/,http://localhost:8822/eureka/
+    region: bj
+    availability-zones:
+      bj: z1,z2
+#    prefer-same-zone-eureka: true
+spring:
+  application:
+    name: api-consumer
+

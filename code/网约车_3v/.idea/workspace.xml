@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bb6ba5b-240d-4d49-9aa6-cc6fc328ea12" name="Default Changelist" comment="代码提交">
-      <change afterPath="$PROJECT_DIR$/api-consumer/src/main/java/com/zhanghp/config/RestTemplateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-consumer/src/main/java/com/zhanghp/controller/ZoneController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/controller/ZoneController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/resources/application-bjz1.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/resources/application-bjz2.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application-bjz11.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application-bjz12.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application-bjz21.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application-bjz22.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guava/src/main/java/com/zhanghp/config/Guava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guava/src/main/java/com/zhanghp/controller/GuavaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/test/java/com/zhanghp/EurekaServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/test/java/com/zhanghp/EurekaServerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../note/1. 网约车项目设计流程.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../note/1. 网约车项目设计流程.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../note/2. Eureka优化.assets/4. eureka集群注册表同步原理2-1632975085034.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../note/2. Eureka优化.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../note/2. Eureka优化.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/2. Eureka-server优化2.assets/image-20210930224106315.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/2. Eureka-server优化2.assets/image-20210930233204282.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/2. Eureka-server优化2.assets/image-20210930233634382.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/2. Eureka-server优化2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/2. Eureka优化.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/网约车遇见的问题.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../note/网约车遇见的问题.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +70,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -82,7 +77,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/api-passenger/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/eureka-server/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -94,8 +89,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\12\项目笔记\网约车第三版笔记\code\网约车_3v\api-passenger\src\main\resources" />
       <recent name="D:\12\项目笔记\网约车第三版笔记\code\网约车_3v\eureka-server\src\main\resources" />
+      <recent name="D:\12\项目笔记\网约车第三版笔记\code\网约车_3v\api-passenger\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -110,7 +105,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EurekaServerApplicationTests.contextLoads">
+  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
     <configuration name="EurekaServerApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="eureka-server" />
       <extension name="coverage">
@@ -160,107 +155,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bjz11-8811" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="cluster-8701" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhanghp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhanghp.EurekaServerApplication" />
-      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=bjz11" />
+      <option name="ACTIVE_PROFILES" value="8701" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bjz11-8812" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="cluster-8702" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhanghp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhanghp.EurekaServerApplication" />
-      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=bjz12" />
+      <option name="ACTIVE_PROFILES" value="8702" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bjz11-8821" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="cluster-8703" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhanghp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhanghp.EurekaServerApplication" />
-      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=bjz21" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="bjz11-8822" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="eureka-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhanghp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhanghp.EurekaServerApplication" />
-      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=bjz22" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="passenger-z1-8701" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="api-passenger" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhanghp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhanghp.ApiPassengerApplication" />
-      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=bjz1" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="passenger-z2-8702" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="api-passenger" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhanghp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhanghp.ApiPassengerApplication" />
-      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=bjz2" />
+      <option name="ACTIVE_PROFILES" value="8703" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.EurekaServerApplicationTests.contextLoads" />
       <item itemvalue="Spring Boot.ApiConsumerApplication" />
       <item itemvalue="Spring Boot.ApiPassengerApplication" />
-      <item itemvalue="Spring Boot.passenger-z1-8701" />
-      <item itemvalue="Spring Boot.passenger-z2-8702" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
-      <item itemvalue="Spring Boot.bjz11-8811" />
-      <item itemvalue="Spring Boot.bjz11-8812" />
-      <item itemvalue="Spring Boot.bjz11-8821" />
-      <item itemvalue="Spring Boot.bjz11-8822" />
-      <item itemvalue="JUnit.EurekaServerApplicationTests.contextLoads" />
+      <item itemvalue="Spring Boot.cluster-8701" />
+      <item itemvalue="Spring Boot.cluster-8702" />
+      <item itemvalue="Spring Boot.cluster-8703" />
     </list>
     <recent_temporary>
       <list>
@@ -285,6 +214,7 @@
       <workItem from="1632965622846" duration="22079000" />
       <workItem from="1633001132556" duration="32000" />
       <workItem from="1633001312959" duration="13639000" />
+      <workItem from="1633059909426" duration="29482000" />
     </task>
     <task id="LOCAL-00001" summary="代码提交。。。">
       <created>1633001487513</created>
@@ -338,29 +268,127 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-core/1.9.17/eureka-core-1.9.17.jar!/com/netflix/eureka/registry/AbstractInstanceRegistry.class</url>
-          <line>210</line>
-          <option name="timeStamp" value="5" />
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-server/2.2.2.RELEASE/spring-cloud-netflix-eureka-server-2.2.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/server/EurekaController.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-server/2.2.2.RELEASE/spring-cloud-netflix-eureka-server-2.2.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/server/EurekaServerInitializerConfiguration.java</url>
-          <line>69</line>
-          <option name="timeStamp" value="16" />
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-core/1.9.17/eureka-core-1.9.17-sources.jar!/com/netflix/eureka/util/StatusUtil.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-core/1.9.17/eureka-core-1.9.17.jar!/com/netflix/eureka/resources/ApplicationResource.class</url>
-          <line>85</line>
-          <option name="timeStamp" value="18" />
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.17/eureka-client-1.9.17.jar!/com/netflix/discovery/DiscoveryClient.class</url>
+          <line>270</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-server/2.2.2.RELEASE/spring-cloud-netflix-eureka-server-2.2.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/server/InstanceRegistry.java</url>
-          <line>84</line>
-          <option name="timeStamp" value="19" />
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.17/eureka-client-1.9.17.jar!/com/netflix/discovery/DiscoveryClient.class</url>
+          <line>257</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-core/1.9.17/eureka-core-1.9.17-sources.jar!/com/netflix/eureka/resources/ApplicationsResource.java</url>
-          <line>154</line>
-          <option name="timeStamp" value="20" />
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.17/eureka-client-1.9.17.jar!/com/netflix/discovery/DiscoveryClient.class</url>
+          <line>250</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.17/eureka-client-1.9.17.jar!/com/netflix/discovery/DiscoveryClient.class</url>
+          <line>291</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.17/eureka-client-1.9.17.jar!/com/netflix/discovery/DiscoveryClient.class</url>
+          <line>667</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.17/eureka-client-1.9.17.jar!/com/netflix/discovery/DiscoveryClient.class</url>
+          <line>675</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.2.2.RELEASE/spring-cloud-netflix-eureka-client-2.2.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/http/RestTemplateEurekaHttpClient.java</url>
+          <line>141</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.17/eureka-client-1.9.17.jar!/com/netflix/discovery/DiscoveryClient.class</url>
+          <line>310</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.17/eureka-client-1.9.17.jar!/com/netflix/discovery/DiscoveryClient.class</url>
+          <line>914</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.17/eureka-client-1.9.17.jar!/com/netflix/discovery/DiscoveryClient.class</url>
+          <line>930</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.17/eureka-client-1.9.17.jar!/com/netflix/discovery/DiscoveryClient.class</url>
+          <line>933</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.17/eureka-client-1.9.17.jar!/com/netflix/discovery/InstanceInfoReplicator.class</url>
+          <line>48</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.17/eureka-client-1.9.17.jar!/com/netflix/discovery/InstanceInfoReplicator.class</url>
+          <line>107</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.17/eureka-client-1.9.17.jar!/com/netflix/discovery/InstanceInfoReplicator.class</url>
+          <line>109</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.17/eureka-client-1.9.17.jar!/com/netflix/discovery/InstanceInfoReplicator.class</url>
+          <line>110</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.17/eureka-client-1.9.17.jar!/com/netflix/discovery/DiscoveryClient.class</url>
+          <line>578</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.17/eureka-client-1.9.17.jar!/com/netflix/discovery/shared/transport/jersey/AbstractJerseyEurekaHttpClient.class</url>
+          <line>44</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.17/eureka-client-1.9.17.jar!/com/netflix/discovery/DiscoveryClient.class</url>
+          <line>631</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.17/eureka-client-1.9.17.jar!/com/netflix/discovery/DiscoveryClient.class</url>
+          <line>650</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.2.2.RELEASE/spring-cloud-netflix-eureka-client-2.2.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/http/RestTemplateEurekaHttpClient.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.17/eureka-client-1.9.17.jar!/com/netflix/discovery/InstanceInfoReplicator.class</url>
+          <line>106</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.17/eureka-client-1.9.17.jar!/com/netflix/discovery/DiscoveryClient.class</url>
+          <line>1244</line>
+          <properties class="com.netflix.discovery.DiscoveryClient.CacheRefreshThread" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

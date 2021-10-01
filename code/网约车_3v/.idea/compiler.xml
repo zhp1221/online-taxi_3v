@@ -9,6 +9,7 @@
         <module name="api-passenger" />
         <module name="api-consumer" />
         <module name="eureka-server" />
+        <module name="guava" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +17,7 @@
       <module name="api-passenger" target="1.8" />
       <module name="dependency" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="guava" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -23,6 +25,7 @@
       <module name="api-consumer" options="-parameters" />
       <module name="api-passenger" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="guava" options="-parameters" />
     </option>
   </component>
 </project>

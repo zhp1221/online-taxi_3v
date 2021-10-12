@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class ZoneController {
-    @Value("${zone.name}")
-    String name;
-    @RequestMapping("/zone")
-    public String zone(){
-        return name;
-    }
+//    @Value("${zone.name}")
+//    String name;
+//    @RequestMapping("/zone")
+//    public String zone(){
+//        return name;
+//    }
 }

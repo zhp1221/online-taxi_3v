@@ -4,9 +4,15 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/api-consumer/api-consumer.iml" filepath="$PROJECT_DIR$/api-consumer/api-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/api-passenger/api-passenger.iml" filepath="$PROJECT_DIR$/api-passenger/api-passenger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-zuul/cloud-zuul.iml" filepath="$PROJECT_DIR$/cloud-zuul/cloud-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/dependency/dependency.iml" filepath="$PROJECT_DIR$/dependency/dependency.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gray-consumer/gray-consumer.iml" filepath="$PROJECT_DIR$/gray-consumer/gray-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gray-provider/gray-provider.iml" filepath="$PROJECT_DIR$/gray-provider/gray-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/guava/guava.iml" filepath="$PROJECT_DIR$/guava/guava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/internal-common/internal-common.iml" filepath="$PROJECT_DIR$/internal-common/internal-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-sms/service-sms.iml" filepath="$PROJECT_DIR$/service-sms/service-sms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-verification-code/service-verification-code.iml" filepath="$PROJECT_DIR$/service-verification-code/service-verification-code.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/网约车_3v.iml" filepath="$PROJECT_DIR$/.idea/网约车_3v.iml" />
     </modules>
   </component>

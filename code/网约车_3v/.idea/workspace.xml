@@ -2,15 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bb6ba5b-240d-4d49-9aa6-cc6fc328ea12" name="Default Changelist" comment="代码提交">
-      <change afterPath="$PROJECT_DIR$/guava/src/main/java/com/zhanghp/config/Guava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guava/src/main/java/com/zhanghp/controller/GuavaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/controller/VerificationCodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/request/ShortMsgRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/request/UserAuthRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/ServicePassengerUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/ServiceSmsRestTemplateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/ServiceVerificationCodeRestTemplateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/VerificationCodeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/impl/AuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/impl/ServicePassengerUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/impl/ServiceSmsRestTemplateServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/impl/ServiceVerificationCodeRestTemplateServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/impl/VerificationCodeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-zuul/src/main/java/com/zhanghp/cloudzuul/filter/GrayFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-zuul/src/main/java/com/zhanghp/cloudzuul/filter/RouteToServiceFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-zuul/src/main/java/com/zhanghp/cloudzuul/mapper/GrayTestMapperCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-zuul/src/main/resources/mybatis/GrayTestMapperCustom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-zuul/src/test/java/com/zhanghp/cloudzuul/mybatis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gray-consumer/src/main/java/com/zhanghp/config/RestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gray-consumer/src/main/java/com/zhanghp/controller/GrayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gray-consumer/src/main/java/com/zhanghp/controller/RouteToServiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gray-consumer/src/main/java/com/zhanghp/gray/GrayAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gray-consumer/src/main/java/com/zhanghp/gray/GrayRibbonConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gray-consumer/src/main/java/com/zhanghp/gray/GrayRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gray-consumer/src/main/java/com/zhanghp/gray/RibbonParameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gray-provider/src/main/java/com/zhanghp/controller/grayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gray-provider/src/main/resources/application-dev1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/zhanghp/constant/CommonStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/zhanghp/constant/IdentityConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/zhanghp/constant/RedisKeyPrefixConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/zhanghp/dto/ResponseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/zhanghp/dto/servicepassengeruser/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/zhanghp/dto/servicesms/SmsSendRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/zhanghp/dto/servicesms/SmsTemplateDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/zhanghp/dto/serviceverificationcode/VerifyCodeRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/zhanghp/dto/serviceverificationcode/VerifyCodeResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-sms/src/main/java/com/zhanghp/constant/SmsStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-sms/src/main/java/com/zhanghp/controller/SendController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-sms/src/main/java/com/zhanghp/controller/ServiceSmsTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-sms/src/main/java/com/zhanghp/dao/ServiceSmsRecordDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-sms/src/main/java/com/zhanghp/dao/ServiceSmsTemplateCustomDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-sms/src/main/java/com/zhanghp/dao/ServiceSmsTemplateDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-sms/src/main/java/com/zhanghp/entity/ServiceSmsRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-sms/src/main/java/com/zhanghp/entity/ServiceSmsTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-sms/src/main/java/com/zhanghp/service/SmsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-sms/src/main/java/com/zhanghp/service/impl/SmsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-verification-code/src/main/java/com/zhanghp/controller/VerifyCodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-verification-code/src/main/java/com/zhanghp/service/VerifyCodeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-verification-code/src/main/java/com/zhanghp/service/impl/VerifyCodeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-verification-code/src/test/java/com/zhanghp/ServiceVerificationCodeApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/ApiPassengerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/ApiPassengerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/controller/ZoneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/controller/ZoneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../note/2. Eureka-server优化2.assets/image-20210930224106315.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../note/2. Eureka-server优化2.assets/image-20210930233204282.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../note/2. Eureka-server优化2.assets/image-20210930233634382.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../note/2. Eureka-server优化2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../note/2. Eureka优化.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/2. Eureka-server优化.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../note/2. Eureka-server优化.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/4. Eureka-client优化.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../note/4. Eureka-client优化.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../note/网约车遇见的问题.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../note/网约车遇见的问题.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +79,23 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="online_taxi_gray@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="online_taxi_gray@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="online_taxi_gray@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="online_taxi_gray: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FavoritesManager">
@@ -70,6 +135,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -77,20 +144,39 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/eureka-server/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../网约车/online-taxi-file/三期/代码/sms/online-taxi-three" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.34152046" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\12\项目笔记\网约车第三版笔记\code\网约车_3v\cloud-zuul\src\main\resources\mybatis" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.zhanghp" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.zhanghp.gray" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zhanghp.gray" />
+      <recent name="com.zhanghp.cloudzuul.mapper" />
+      <recent name="com.zhanghp.dto.servicepassengeruser" />
+      <recent name="com.zhanghp.request" />
+      <recent name="com.zhanghp.service.impl" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\12\项目笔记\网约车第三版笔记\code\网约车_3v\eureka-server\src\main\resources" />
-      <recent name="D:\12\项目笔记\网约车第三版笔记\code\网约车_3v\api-passenger\src\main\resources" />
+      <recent name="D:\12\项目笔记\网约车第三版笔记\code\网约车_3v\cloud-zuul\src\main\resources\mybatis" />
+      <recent name="D:\12\项目笔记\网约车第三版笔记\code\网约车_3v\gray-provider\src\main\resources" />
+      <recent name="D:\12\项目笔记\网约车第三版笔记\code\网约车_3v\service-sms\src\main\java\com\zhanghp" />
+      <recent name="D:\12\项目笔记\网约车第三版笔记\code\网约车_3v\api-passenger\src\main\java\com\zhanghp\controller" />
+      <recent name="D:\12\项目笔记\网约车第三版笔记\code\网约车_3v\internal-common\src\main\java\com\zhanghp\constant" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -105,9 +191,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
-    <configuration name="EurekaServerApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="eureka-server" />
+  <component name="RunManager" selected="Spring Boot.cloud-zuul-8999">
+    <configuration name="CloudZuulApplicationTests.testGenerator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-zuul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhanghp.cloudzuul.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhanghp.cloudzuul" />
+      <option name="MAIN_CLASS_NAME" value="com.zhanghp.cloudzuul.CloudZuulApplicationTests" />
+      <option name="METHOD_NAME" value="testGenerator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceVerificationCodeApplicationTests.comp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-verification-code" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zhanghp.*" />
@@ -115,8 +217,55 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zhanghp" />
-      <option name="MAIN_CLASS_NAME" value="com.zhanghp.EurekaServerApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="MAIN_CLASS_NAME" value="com.zhanghp.ServiceVerificationCodeApplicationTests" />
+      <option name="METHOD_NAME" value="comp" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceVerificationCodeApplicationTests.math2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-verification-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhanghp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhanghp" />
+      <option name="MAIN_CLASS_NAME" value="com.zhanghp.ServiceVerificationCodeApplicationTests" />
+      <option name="METHOD_NAME" value="math2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mybatis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-zuul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhanghp.cloudzuul.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhanghp.cloudzuul" />
+      <option name="MAIN_CLASS_NAME" value="com.zhanghp.cloudzuul.mybatis" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mybatis.mybatistest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-zuul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhanghp.cloudzuul.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhanghp.cloudzuul" />
+      <option name="MAIN_CLASS_NAME" value="com.zhanghp.cloudzuul.mybatis" />
+      <option name="METHOD_NAME" value="mybatistest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,75 +278,112 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiPassengerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ApiPassengerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="api-passenger" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhanghp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhanghp.ApiPassengerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eureka-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhanghp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhanghp.EurekaServerApplication" />
+    <configuration name="InternalCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="internal-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhanghp.InternalCommonApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cluster-8701" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="eureka-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhanghp.EurekaServerApplication" />
-      <option name="ACTIVE_PROFILES" value="8701" />
+    <configuration name="ServiceSmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-sms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhanghp.ServiceSmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceVerificationCodeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-verification-code" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhanghp.ServiceVerificationCodeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cloud-zuul-8999" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhanghp.cloudzuul.CloudZuulApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cluster-8702" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="eureka-server" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhanghp.EurekaServerApplication" />
-      <option name="ACTIVE_PROFILES" value="8702" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cluster-8703" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="eureka-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhanghp.EurekaServerApplication" />
-      <option name="ACTIVE_PROFILES" value="8703" />
+    <configuration name="gray-consumer-9000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gray-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhanghp.GrayConsumerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gray-provider-9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gray-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhanghp.GrayProviderApplication" />
+      <option name="ACTIVE_PROFILES" value="v1" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gray-provider-9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gray-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhanghp.GrayProviderApplication" />
+      <option name="ACTIVE_PROFILES" value="v2" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.EurekaServerApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.ServiceVerificationCodeApplicationTests.comp" />
+      <item itemvalue="JUnit.ServiceVerificationCodeApplicationTests.math2" />
+      <item itemvalue="JUnit.CloudZuulApplicationTests.testGenerator" />
+      <item itemvalue="JUnit.mybatis" />
+      <item itemvalue="JUnit.mybatis.mybatistest" />
       <item itemvalue="Spring Boot.ApiConsumerApplication" />
+      <item itemvalue="Spring Boot.InternalCommonApplication" />
+      <item itemvalue="Spring Boot.ServiceVerificationCodeApplication" />
+      <item itemvalue="Spring Boot.ServiceSmsApplication" />
       <item itemvalue="Spring Boot.ApiPassengerApplication" />
-      <item itemvalue="Spring Boot.EurekaServerApplication" />
-      <item itemvalue="Spring Boot.cluster-8701" />
-      <item itemvalue="Spring Boot.cluster-8702" />
-      <item itemvalue="Spring Boot.cluster-8703" />
+      <item itemvalue="Spring Boot.eureka-server" />
+      <item itemvalue="Spring Boot.cloud-zuul-8999" />
+      <item itemvalue="Spring Boot.gray-consumer-9000" />
+      <item itemvalue="Spring Boot.gray-provider-9001" />
+      <item itemvalue="Spring Boot.gray-provider-9002" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EurekaServerApplicationTests.contextLoads" />
-        <item itemvalue="Spring Boot.EurekaServerApplication" />
-        <item itemvalue="Spring Boot.ApiPassengerApplication" />
+        <item itemvalue="JUnit.mybatis.mybatistest" />
+        <item itemvalue="JUnit.mybatis" />
+        <item itemvalue="JUnit.CloudZuulApplicationTests.testGenerator" />
+        <item itemvalue="JUnit.ServiceVerificationCodeApplicationTests.comp" />
+        <item itemvalue="JUnit.ServiceVerificationCodeApplicationTests.math2" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -214,7 +400,16 @@
       <workItem from="1632965622846" duration="22079000" />
       <workItem from="1633001132556" duration="32000" />
       <workItem from="1633001312959" duration="13639000" />
-      <workItem from="1633059909426" duration="29482000" />
+      <workItem from="1633059909426" duration="30390000" />
+      <workItem from="1633660447747" duration="14783000" />
+      <workItem from="1633708187955" duration="1877000" />
+      <workItem from="1633744800041" duration="1859000" />
+      <workItem from="1633873369168" duration="9901000" />
+      <workItem from="1633883393583" duration="2417000" />
+      <workItem from="1633885882867" duration="318000" />
+      <workItem from="1633913839212" duration="4251000" />
+      <workItem from="1633918179192" duration="15628000" />
+      <workItem from="1634000290259" duration="7488000" />
     </task>
     <task id="LOCAL-00001" summary="代码提交。。。">
       <created>1633001487513</created>

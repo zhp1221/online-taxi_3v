@@ -1,0 +1,9 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-8888:8888/eureka
+spring:
+  application:
+    name: gray-provider
+server:
+  port: 9002

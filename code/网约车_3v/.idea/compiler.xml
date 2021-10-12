@@ -2,30 +2,51 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="service-verification-code" />
         <module name="api-passenger" />
-        <module name="api-consumer" />
         <module name="eureka-server" />
+        <module name="cloud-zuul" />
+        <module name="gray-consumer" />
+        <module name="api-consumer" />
+        <module name="internal-common" />
+        <module name="gray-provider" />
+        <module name="service-sms" />
         <module name="guava" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api-consumer" target="1.8" />
       <module name="api-passenger" target="1.8" />
+      <module name="cloud-zuul" target="1.8" />
       <module name="dependency" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="gray-consumer" target="1.8" />
+      <module name="gray-provider" target="1.8" />
       <module name="guava" target="1.8" />
+      <module name="internal-common" target="1.8" />
+      <module name="internalcommon" target="1.8" />
+      <module name="service-sms" target="1.8" />
+      <module name="service-verification-code" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-consumer" options="-parameters" />
       <module name="api-passenger" options="-parameters" />
+      <module name="cloud-zuul" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="gray-consumer" options="-parameters" />
+      <module name="gray-provider" options="-parameters" />
       <module name="guava" options="-parameters" />
+      <module name="internal-common" options="-parameters" />
+      <module name="internalcommon" options="-parameters" />
+      <module name="service-sms" options="-parameters" />
+      <module name="service-verification-code" options="-parameters" />
     </option>
   </component>
 </project>

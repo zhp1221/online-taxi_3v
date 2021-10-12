@@ -3,9 +3,15 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/api-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/api-passenger" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-zuul" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dependency" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gray-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gray-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/guava" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/internal-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-sms" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-verification-code" charset="UTF-8" />
   </component>
 </project>

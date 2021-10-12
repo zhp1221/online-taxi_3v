@@ -11,6 +11,12 @@
         <option value="$PROJECT_DIR$/api-passenger/pom.xml" />
         <option value="$PROJECT_DIR$/api-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/guava/pom.xml" />
+        <option value="$PROJECT_DIR$/internal-common/pom.xml" />
+        <option value="$PROJECT_DIR$/service-verification-code/pom.xml" />
+        <option value="$PROJECT_DIR$/service-sms/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/gray-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/gray-provider/pom.xml" />
       </list>
     </option>
   </component>

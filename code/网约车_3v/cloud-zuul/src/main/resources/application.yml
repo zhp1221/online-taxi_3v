@@ -1,0 +1,31 @@
+server:
+  port: 8999
+spring:
+  application:
+    name: zuul-cloud
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/online_taxi_gray?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: root
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-8888:8888/eureka
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+mybatis:
+  type-aliases-package: com.zhanghp.cloudzuul.entity
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:mybatis/*.xml
+zuul:
+  routes:
+    gray-consumer:
+      path: /gray-consumer/**
+      url: http://localhost:9000/
+    xx:
+      path: /xx/**
+      url: http://mashibing.com
+  sensitive-headers:

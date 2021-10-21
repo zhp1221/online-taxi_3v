@@ -2,65 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bb6ba5b-240d-4d49-9aa6-cc6fc328ea12" name="Default Changelist" comment="代码提交">
-      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/controller/VerificationCodeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/request/ShortMsgRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/request/UserAuthRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/ServicePassengerUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/ServiceSmsRestTemplateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/ServiceVerificationCodeRestTemplateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/VerificationCodeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/impl/AuthServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/impl/ServicePassengerUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/impl/ServiceSmsRestTemplateServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/impl/ServiceVerificationCodeRestTemplateServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/impl/VerificationCodeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-zuul/src/main/java/com/zhanghp/cloudzuul/filter/GrayFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-zuul/src/main/java/com/zhanghp/cloudzuul/filter/RouteToServiceFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-zuul/src/main/java/com/zhanghp/cloudzuul/mapper/GrayTestMapperCustom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-zuul/src/main/resources/mybatis/GrayTestMapperCustom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-zuul/src/test/java/com/zhanghp/cloudzuul/mybatis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gray-consumer/src/main/java/com/zhanghp/config/RestConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gray-consumer/src/main/java/com/zhanghp/controller/GrayController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gray-consumer/src/main/java/com/zhanghp/controller/RouteToServiceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gray-consumer/src/main/java/com/zhanghp/gray/GrayAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gray-consumer/src/main/java/com/zhanghp/gray/GrayRibbonConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gray-consumer/src/main/java/com/zhanghp/gray/GrayRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gray-consumer/src/main/java/com/zhanghp/gray/RibbonParameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gray-provider/src/main/java/com/zhanghp/controller/grayController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gray-provider/src/main/resources/application-dev1.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/zhanghp/constant/CommonStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/zhanghp/constant/IdentityConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/zhanghp/constant/RedisKeyPrefixConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/zhanghp/dto/ResponseResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/zhanghp/dto/servicepassengeruser/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/zhanghp/dto/servicesms/SmsSendRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/zhanghp/dto/servicesms/SmsTemplateDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/zhanghp/dto/serviceverificationcode/VerifyCodeRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/zhanghp/dto/serviceverificationcode/VerifyCodeResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-sms/src/main/java/com/zhanghp/constant/SmsStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-sms/src/main/java/com/zhanghp/controller/SendController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-sms/src/main/java/com/zhanghp/controller/ServiceSmsTestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-sms/src/main/java/com/zhanghp/dao/ServiceSmsRecordDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-sms/src/main/java/com/zhanghp/dao/ServiceSmsTemplateCustomDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-sms/src/main/java/com/zhanghp/dao/ServiceSmsTemplateDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-sms/src/main/java/com/zhanghp/entity/ServiceSmsRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-sms/src/main/java/com/zhanghp/entity/ServiceSmsTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-sms/src/main/java/com/zhanghp/service/SmsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-sms/src/main/java/com/zhanghp/service/impl/SmsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-verification-code/src/main/java/com/zhanghp/controller/VerifyCodeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-verification-code/src/main/java/com/zhanghp/service/VerifyCodeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-verification-code/src/main/java/com/zhanghp/service/impl/VerifyCodeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-verification-code/src/test/java/com/zhanghp/ServiceVerificationCodeApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-passenger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/ApiPassengerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/ApiPassengerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/controller/ZoneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/controller/ZoneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependency/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../note/2. Eureka-server优化.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../note/2. Eureka-server优化.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../note/4. Eureka-client优化.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../note/4. Eureka-client优化.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../note/网约车遇见的问题.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../note/网约车遇见的问题.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/8. 网关.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../note/8. 网关.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -144,7 +86,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../网约车/online-taxi-file/三期/代码/sms/online-taxi-three" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../网约车/online-taxi-file/三期/代码/zuul&amp;服务限流/cloud-zuul" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -155,15 +97,6 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\12\项目笔记\网约车第三版笔记\code\网约车_3v\cloud-zuul\src\main\resources\mybatis" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.zhanghp" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.zhanghp.gray" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.zhanghp.gray" />
       <recent name="com.zhanghp.cloudzuul.mapper" />
@@ -171,12 +104,21 @@
       <recent name="com.zhanghp.request" />
       <recent name="com.zhanghp.service.impl" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.zhanghp" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\12\项目笔记\网约车第三版笔记\code\网约车_3v\cloud-zuul\src\main\resources\mybatis" />
       <recent name="D:\12\项目笔记\网约车第三版笔记\code\网约车_3v\gray-provider\src\main\resources" />
       <recent name="D:\12\项目笔记\网约车第三版笔记\code\网约车_3v\service-sms\src\main\java\com\zhanghp" />
       <recent name="D:\12\项目笔记\网约车第三版笔记\code\网约车_3v\api-passenger\src\main\java\com\zhanghp\controller" />
       <recent name="D:\12\项目笔记\网约车第三版笔记\code\网约车_3v\internal-common\src\main\java\com\zhanghp\constant" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.zhanghp.gray" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\12\项目笔记\网约车第三版笔记\code\网约车_3v\cloud-zuul\src\main\resources\mybatis" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -410,6 +352,8 @@
       <workItem from="1633913839212" duration="4251000" />
       <workItem from="1633918179192" duration="15628000" />
       <workItem from="1634000290259" duration="7488000" />
+      <workItem from="1634268937456" duration="3899000" />
+      <workItem from="1634302445656" duration="684000" />
     </task>
     <task id="LOCAL-00001" summary="代码提交。。。">
       <created>1633001487513</created>

@@ -2,7 +2,11 @@ server:
   port: 8081
 eureka:
   client:
-    enabled: false
+    enabled: true
+    service-url:
+      defaultZone: http://eureka-8888:8888/eureka
+  instance:
+    hostname: service-verification-code
 spring:
   application:
-    name: service-verification-code-8081
+    name: service-verification-code

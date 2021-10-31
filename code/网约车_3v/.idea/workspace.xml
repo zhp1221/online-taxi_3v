@@ -2,6 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bb6ba5b-240d-4d49-9aa6-cc6fc328ea12" name="Default Changelist" comment="代码提交">
+      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/request/CheckPhoneRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/controller/VerificationCodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/controller/VerificationCodeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/controller/ZoneController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/request/ShortMsgRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/request/UserAuthRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/AuthService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/ServicePassengerUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/ServiceSmsRestTemplateService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/ServiceVerificationCodeRestTemplateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/ServiceVerificationCodeRestTemplateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/VerificationCodeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/VerificationCodeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/impl/AuthServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/impl/ServicePassengerUserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/impl/ServiceSmsRestTemplateServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/impl/ServiceVerificationCodeRestTemplateServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/impl/ServiceVerificationCodeRestTemplateServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/impl/VerificationCodeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zhanghp/service/impl/VerificationCodeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal-common/src/main/java/com/zhanghp/constant/CommonStatusEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal-common/src/main/java/com/zhanghp/constant/IdentityConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/zhanghp/constant/IdentityConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal-common/src/main/java/com/zhanghp/constant/RedisKeyPrefixConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal-common/src/main/java/com/zhanghp/dto/ResponseResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/zhanghp/dto/ResponseResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal-common/src/main/java/com/zhanghp/dto/servicepassengeruser/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal-common/src/main/java/com/zhanghp/dto/servicesms/SmsSendRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal-common/src/main/java/com/zhanghp/dto/servicesms/SmsTemplateDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal-common/src/main/java/com/zhanghp/dto/serviceverificationcode/VerifyCodeRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal-common/src/main/java/com/zhanghp/dto/serviceverificationcode/VerifyCodeResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-verification-code/src/main/java/com/zhanghp/controller/VerifyCodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-verification-code/src/main/java/com/zhanghp/controller/VerifyCodeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-verification-code/src/main/java/com/zhanghp/service/VerifyCodeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-verification-code/src/main/java/com/zhanghp/service/impl/VerifyCodeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-verification-code/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-verification-code/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/2. Eureka-server优化.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../note/2. Eureka-server优化.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/6. 短信服务.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../note/6. 短信服务.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../note/8. 网关.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../note/8. 网关.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,6 +78,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -86,7 +119,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../网约车/online-taxi-file/三期/代码/zuul&amp;服务限流/cloud-zuul" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -133,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.cloud-zuul-8999">
+  <component name="RunManager" selected="Spring Boot.eureka-server-8888">
     <configuration name="CloudZuulApplicationTests.testGenerator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cloud-zuul" />
       <extension name="coverage">
@@ -220,13 +253,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiPassengerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="api-passenger" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhanghp.ApiPassengerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="InternalCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="internal-common" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhanghp.InternalCommonApplication" />
@@ -241,9 +267,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServiceVerificationCodeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="service-verification-code" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhanghp.ServiceVerificationCodeApplication" />
+    <configuration name="api-passenger-8700" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api-passenger" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhanghp.ApiPassengerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -256,7 +283,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="eureka-server" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="eureka-server-8888" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhanghp.EurekaServerApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -290,6 +317,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="service-verification-code-8081" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-verification-code" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhanghp.ServiceVerificationCodeApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.ServiceVerificationCodeApplicationTests.comp" />
       <item itemvalue="JUnit.ServiceVerificationCodeApplicationTests.math2" />
@@ -298,10 +333,10 @@
       <item itemvalue="JUnit.mybatis.mybatistest" />
       <item itemvalue="Spring Boot.ApiConsumerApplication" />
       <item itemvalue="Spring Boot.InternalCommonApplication" />
-      <item itemvalue="Spring Boot.ServiceVerificationCodeApplication" />
+      <item itemvalue="Spring Boot.service-verification-code-8081" />
       <item itemvalue="Spring Boot.ServiceSmsApplication" />
-      <item itemvalue="Spring Boot.ApiPassengerApplication" />
-      <item itemvalue="Spring Boot.eureka-server" />
+      <item itemvalue="Spring Boot.api-passenger-8700" />
+      <item itemvalue="Spring Boot.eureka-server-8888" />
       <item itemvalue="Spring Boot.cloud-zuul-8999" />
       <item itemvalue="Spring Boot.gray-consumer-9000" />
       <item itemvalue="Spring Boot.gray-provider-9001" />
@@ -354,6 +389,9 @@
       <workItem from="1634000290259" duration="7488000" />
       <workItem from="1634268937456" duration="3899000" />
       <workItem from="1634302445656" duration="684000" />
+      <workItem from="1634905815189" duration="9244000" />
+      <workItem from="1635285258700" duration="4023000" />
+      <workItem from="1635348395272" duration="63000" />
     </task>
     <task id="LOCAL-00001" summary="代码提交。。。">
       <created>1633001487513</created>

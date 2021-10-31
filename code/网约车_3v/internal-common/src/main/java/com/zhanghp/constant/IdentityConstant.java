@@ -1,16 +1,10 @@
 package com.zhanghp.constant;
 
 /**
- * @author 13999
+ * @author: zhanghp
+ * @version: 1.0
  */
 public class IdentityConstant {
-    /**
-     * 乘客标识
-     */
     public static final int PASSENGER = 1;
-
-    /**
-     * 司机标识
-     */
     public static final int DRIVER = 2;
 }
